@@ -1,0 +1,9 @@
+project: savantenvs/PolarDB-for-PostgreSQL
+target: fuzz_conninfo
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_conninfo/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_conninfo
+    libfuzzer: true
+    timeout: 5

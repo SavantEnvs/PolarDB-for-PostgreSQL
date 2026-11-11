@@ -1,0 +1,2 @@
+$a$ body ; $a$; \copy t from stdin; -- c
+/* x /* y */ */ select 1;

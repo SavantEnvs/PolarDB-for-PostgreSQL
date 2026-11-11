@@ -1,0 +1,14 @@
+[{
+"teststring": "\u0001\b\f\n\r\t\\blurfl",
+"updated": "Tue, 08 Sep 2009 23:28:55 +0000",
+"links": [{"href"
+: "http://example.com/broadway/",
+"type": "text/html", "rel": "alternate"}], "title": "TheaterMania"
+,
+        "author": "mcasas1",
+        "comments": "http://example.com/url/b5b3cbf9a9176fe43c27d7b4af94a422",
+        "guidislink": false,
+        "title_detail": {
+            "base": "http://example.com/v2/rss/recent?min=1&count=100",
+            "type": "text/plain",
+            "language": null,

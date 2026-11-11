@@ -1,0 +1,9 @@
+project: savantenvs/PolarDB-for-PostgreSQL
+target: fuzz_psqlscan
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_psqlscan/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_psqlscan
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,1 @@
+postgresql://uri-user:secret@host:12345/db?sslmode=require

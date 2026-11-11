@@ -1,0 +1,9 @@
+project: savantenvs/PolarDB-for-PostgreSQL
+target: fuzz_mbstr
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_mbstr/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_mbstr
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,9 @@
+project: savantenvs/PolarDB-for-PostgreSQL
+target: fuzz_unicode
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_unicode/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_unicode
+    libfuzzer: true
+    timeout: 5
